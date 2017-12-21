@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/eingabe"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:hint="@string/Höhe"
+        android:inputType="numberDecimal"
+
+        />
+
+    <Button
+        android:id="@+id/btn_malen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="10dp"
+        android:text="Zeichnen" />
+
+
+    <TextView
+        android:id="@+id/tv_zeichnen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+
+        />
+
+</RelativeLayout>
